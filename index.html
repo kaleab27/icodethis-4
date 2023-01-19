@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="bg-gradient-to-r from-lightBlue to-darkBlue">
+    <div class="container h-screen flex items-center justify-center">
+      <div class="relative">
+        <div class="card absolute -left-32 -top-72 hidden">
+          <div
+            class="relative w-80 p-6 bg-[#0F172A] flex flex-col items-center justify-center gap-2 rounded-md"
+          >
+            <div class="w-16 h-16 rounded-full cursor-pointer">
+              <img
+                class="w-full h-full rounded-full"
+                src="https://i.ibb.co/yBFnb9t/profile.jpg"
+                alt="profile picture"
+              />
+            </div>
+            <h2 class="text-2xl text-white">Nora Sanders</h2>
+            <p class="text-gray-300">
+              UX Designer <span class="text-violet-600">@Google</span>
+            </p>
+            <button class="px-6 py-2 mt-4 text-white bg-violet-900 rounded-md">
+              Message
+            </button>
+            <div
+              class="before:contents-[''] before:w-0 before:h-0 before:absolute before:left-1/2 before:top-full before:transform before:-translate-x-1/2 before:border-x-[20px] before:border-x-transparent before:border-t-[15px] before:border-t-[#0F172A]"
+            ></div>
+          </div>
+        </div>
+        <div class="profile-icon relative w-16 h-16 rounded-full cursor-pointer">
+          <img
+            class="w-full h-full rounded-full"
+            src="https://i.ibb.co/yBFnb9t/profile.jpg"
+            alt="profile picture"
+          />
+          <div
+            class="absolute -top-2 -left-2 w-20 h-20 bg-lightBlue rounded-full animate-pulse -z-10"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
